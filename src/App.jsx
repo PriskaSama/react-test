@@ -1,6 +1,7 @@
 import "./App.css";
-import { Footer } from "./footer";
+
 import {Footer2} from "./footer2";
+import { RenderImage } from "./renderImage";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         </h1>
       </div>
       <body className="h-auto w-full overflow-x-hidden mt-8">
-      {/* <Footer /> */}
+      <RenderImage />
       <br />
       <Footer2 />
       </body>
